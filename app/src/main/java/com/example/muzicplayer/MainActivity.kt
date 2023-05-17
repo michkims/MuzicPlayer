@@ -172,7 +172,7 @@ class MainActivity : AppCompatActivity() {
             binding.refreshLayout.isRefreshing = false
         }
     }
-    @SuppressLint("Recycle", "Range")
+    @SuppressLint("Recycle", "Range", "SuspiciousIndentation")
     @RequiresApi(Build.VERSION_CODES.R)
     private fun getAllAudio(): ArrayList<Music>{
         val tempList = ArrayList<Music>()
