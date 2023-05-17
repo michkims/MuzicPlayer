@@ -200,7 +200,7 @@ class MainActivity : AppCompatActivity() {
                     if(file.exists())
                         tempList.add(music)
                 }while (cursor.moveToNext())
-                cursor.close()
+                    cursor.close()
         }
         return tempList
     }

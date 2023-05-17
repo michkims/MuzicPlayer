@@ -31,6 +31,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.example.muzicplayer.databinding.ActivityPlayerBinding
 import com.example.muzicplayer.databinding.AudioBoosterBinding
 
+
 class PlayerActivity : AppCompatActivity(), ServiceConnection, MediaPlayer.OnCompletionListener {
 
 

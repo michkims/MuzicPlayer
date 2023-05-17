@@ -21,7 +21,7 @@
         <ImageButton
             android:id="@+id/backBtnPD"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:src="@drawable/back_icon"
             android:contentDescription="@string/back_btn"
             android:backgroundTint="@android:color/transparent"
@@ -110,7 +110,7 @@
         <Button
             android:id="@+id/addBtnPD"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/add_song"
@@ -124,7 +124,7 @@
         <Button
             android:id="@+id/removeAllPD"
             style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/remove_all"
